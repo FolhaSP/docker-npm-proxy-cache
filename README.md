@@ -3,7 +3,7 @@
 Run the container of [npm-proxy-cache](https://github.com/runk/npm-proxy-cache)
 
 ```
-docker run --restart=always --net=host -p 8080:8080 -t kudoz/npm-proxy-cache --name=npm-proxy-cache
+docker run --restart=always --net=host -p 8080:8080 -t folha/npm-proxy-cache --name=npm-proxy-cache
 ```
 
 Add to /etc/rc.local
